@@ -4,14 +4,13 @@
 
 Kaggle link: https://www.kaggle.com/c/gan-getting-started/overview/description
 
-
 “Every artist dips his brush in his own soul, and paints his own nature into his pictures” - Henry Ward Beecher
 
 ## Structure
 
-- data_lists: 
-- datasets: 
-  - wrappingdatasets: 
+- data_lists: lists which contain the pathes of the images we will use. This directory will be empty, because the lists will be personal of each member (each member will have his own file structure). In root directory it will be an script to generate lists (to genereate each member lists).
+- datasets: dataset objects will be defined.
+  - wrappingdatasets: scripts to transformate all data included in a dataset. 
 - docopts: 
 - extern: 
 - list_utils: 
@@ -25,6 +24,7 @@ Kaggle link: https://www.kaggle.com/c/gan-getting-started/overview/description
 
 ## First Steps
 
+- Download the
 - Analize Kaggle datasets
 - Embrance the structure of the project
 
