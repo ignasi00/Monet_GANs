@@ -41,6 +41,7 @@ cython_debug/
 /extern/*/
 /wandb/*
 data_lists/*
+model_parameters/*.pth
 !.gitkeep
 !*/.gitkeep
 
