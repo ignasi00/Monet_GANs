@@ -41,4 +41,6 @@ cython_debug/
 /extern/*/
 /wandb/*
 data_lists/*
+!.gitkeep
+!*/.gitkeep
 
