@@ -13,20 +13,21 @@ Kaggle link: https://www.kaggle.com/c/gan-getting-started/overview/description
 - datasets: dataset objects will be defined.
   - wrappingdatasets: modules to transformate all data included in a dataset.
     - custom_transforms: modules defining custom data transformations if needed. We think we will leave this folder empty.
-- docopts: 
-- extern: 
-- list_utils: 
+- docopts: parameters manager to the training scripts (parser).
+- extern: to import and test external tools (the idea is use them to implement our own solution).
+- list_utils: scripts to davide lists in train, test, validation.. Or useful functions to manage lists.
 - loggers: 
-- losses: 
-- metrics: 
-- model_parameters: 
-- models: 
-- optims: 
-- train_utils: 
+- losses: losses function classes (metrics we use to optimize, they have to be differentiable).
+- metrics: evalutation classes (they are only to evaluate and not to optimize, it is not necessary to be differentiable).
+- model_parameters: training results (the parameters of the trainned models) (maybe better locally).
+- models: algorithms and useful tools to define the model.
+- optims: if we want to use our own optimizer.
+- train_utils: useful items to the training (stopers for example).
 
 ## First Steps
 
-- Download the
+- Talk to Ignasi to join the Kaggle (os tiene que invitar al team)
+- Download Images: https://www.kaggle.com/c/gan-getting-started/data?select=photo_jpg
 - Analize Kaggle datasets
 - Embrance the structure of the project
 
